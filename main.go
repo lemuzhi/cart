@@ -1,14 +1,14 @@
 package main
 
 import (
-	"cart/domain/repository"
-	"cart/domain/service"
-	"cart/handler"
-	pb "cart/proto/cart"
 	"fmt"
 	"github.com/go-micro/plugins/v4/registry/consul"
 	"github.com/go-micro/plugins/v4/wrapper/ratelimiter/uber"
 	"github.com/go-micro/plugins/v4/wrapper/trace/opentracing"
+	"github.com/lemuzhi/cart/domain/repository"
+	"github.com/lemuzhi/cart/domain/service"
+	"github.com/lemuzhi/cart/handler"
+	pb "github.com/lemuzhi/cart/proto/cart"
 	"github.com/lemuzhi/common"
 	"go-micro.dev/v4/registry"
 	"gorm.io/driver/mysql"
