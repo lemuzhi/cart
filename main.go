@@ -8,7 +8,7 @@ import (
 	"github.com/lemuzhi/cart/domain/repository"
 	"github.com/lemuzhi/cart/domain/service"
 	"github.com/lemuzhi/cart/handler"
-	pb "github.com/lemuzhi/cart/proto/cart"
+	pb "github.com/lemuzhi/cart/proto"
 	"github.com/lemuzhi/common"
 	"go-micro.dev/v4/registry"
 	"gorm.io/driver/mysql"
